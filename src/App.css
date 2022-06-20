@@ -9,8 +9,36 @@
 }
 .main-container h1 {
   margin: 0;
+  margin-bottom: 10px;
+  color: #c414fd;
+}
+.input-field input {
+  width: 65%;
+  height: 30px;
+  border: 1px solid #c414fd;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-right: 5px;
+  background: transparent;
+  color: #c414fd;
+}
+.input-field button, .main-container ul li button {
+  height: 32px;
+  border: 1px solid #c414fd;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-right: 5px;
+  background: #c414fd;
+  color: #ffffff;
 }
 .main-container ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+.main-container ul li {
+  margin: 10px 0;
+}
+.main-container ul li span {
+  margin-right: 20px;
 }
